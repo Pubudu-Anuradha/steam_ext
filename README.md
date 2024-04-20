@@ -4,7 +4,7 @@ quick and dirty steam workshop item list to steamcmd commands
 
 ## prerequisites
 
-- ![Bun](https://bun.sh/)
+- [Bun](https://bun.sh/)
 
 ## to run
 
