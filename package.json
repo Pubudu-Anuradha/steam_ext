@@ -1,0 +1,26 @@
+{
+  "name": "steam_ext",
+  "version": "1.0.0",
+  "author": "Pubudu-Anuradha",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pubudu-Anuradha/steam_ext.git"
+  },
+  "main": "main.js",
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "typescript": "^5.4.5"
+  },
+  "bugs": {
+    "url": "https://github.com/Pubudu-Anuradha/steam_ext/issues"
+  },
+  "description": "quick and dirty steam workshop item list to steamcmd commands",
+  "homepage": "https://github.com/Pubudu-Anuradha/steam_ext#readme",
+  "keywords": [
+    "steam"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "watch": "nodemon -e .ts -w src/ --exec \"bun build ./src/main.ts --outdir ./build --minify\""
+  }
+}

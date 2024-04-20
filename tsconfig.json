@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "module": "AMD",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "outFile": "build/main.js",
+    "sourceMap": false,
+    "target": "ES6",
+    "lib": ["ESNext","DOM"],
+  },
+  "include": ["src/**/*"],
+  "exclude": ["**/*.spec.ts"]
+}
